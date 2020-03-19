@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Assignment 2 - Program za obavljanje osnovnih aritmetickih operacija</title>
+    </head>
+    <body>
+           <script>
+               var broj1 = prompt("Unesite prvi broj: ");
+               var operator = prompt("Unesite operator(+, -, *, /): ");
+               var broj2 = prompt("Unesite drugi broj: ");
+        
+               if (operator == '+') {
+                  let sum1 = parseInt(broj1) + parseInt(broj2);
+                  alert('Zbir vasa dva broja je : ' + sum1);
+               } else if (operator == '-') {
+                  let sum2 = parseInt(broj1) - parseInt(broj2);
+                  alert('Razlika vasa dva broja je : ' + sum2);
+               } else if (operator == '*') {
+                  let sum3 = parseInt(broj1) * parseInt(broj2);
+                  alert('Proizvod vasa dva broja je : ' + sum3);
+               } else if (operator == '/') {
+                  let sum4 = parseInt(broj1) / parseInt(broj2);
+                  alert('Kolicnik vasa dva broja je : ' + sum4);
+               } else {
+                   alert('Molim vas da unesete jedan od ponudjenih operatora(+, -, *, /)');
+               }
+
+           </script>
+    </body>
